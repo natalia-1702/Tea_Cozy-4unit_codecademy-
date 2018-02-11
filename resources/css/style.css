@@ -1,0 +1,146 @@
+/*   Universal styles */
+
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	display: block;
+	text-align: center;
+
+
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.indention {
+	position: relative;
+	top: 70px;
+}
+
+/* ---------------logo and menu---------- */
+.head {
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	height: 69px;
+	position: fixed;
+	z-index: 1;
+	left: -5px; /*Убрать отступ слева*/
+
+}
+.head img {
+	display: flex;
+	height: 50px;
+}
+
+.logo {
+	margin-left: 10px;/*Отступ слева от логотипа*/
+}
+
+.menu {
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-end;
+	height: 69px;
+	align-items: center;
+}
+.menu nav span {
+	padding: 20px 10px;
+}
+.menu nav span a {
+	text-decoration: underline;
+	color: white;
+}
+}
+/* --------------Content---------------------- */
+.content {
+	/*display: flex;*/
+}
+
+/*_________FIRST_________ */
+#mission {
+	height: 700px;
+	background-image: url(../images/img-mission-background.jpg);
+	width: 1200px;
+	margin: auto;
+}
+
+.title {
+	background-color: black;
+	width: 1200px;
+	text-align: center;
+	margin: auto;
+}
+
+
+/* _____SECOND__________*/
+#featured_tea {
+	flex-direction: column;
+	width: 1000px;
+	margin: auto;
+	padding-top: 70px;
+	padding-bottom: 70px;/* */
+}
+/* Пространство между текстом и 5 картинками */
+.text_tea h2, .text_tea h4 {
+	margin: 0;
+	padding: 10px;
+
+}
+.images {
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+}
+.tea_sort div h4,
+.items {
+	padding: 5px;
+	margin: 0;
+}
+
+/*_________THIRD_________________*/
+#locations {
+	background-image: url(../images/img-locations-background.jpg);
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+	padding-top: 70px
+
+}
+#locations h2 {
+	width: 1180px;
+	padding: 10px;
+	text-align: center;
+	margin: 0;
+}
+
+.block {
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	flex-direction: column;
+	display: flex;
+	padding: 10px;
+	margin: 5px 20px;
+	opacity: 1;
+}
+/*_______FOURTH______ */
+.contacts {
+	height: 200px;
+	display: block;
+	text-align: center;
+}
+
+/*----------foot-------------*/
+.foot {
+	text-align: left;
+	margin-left: 20px;
+	padding-bottom: 5px;
+}
